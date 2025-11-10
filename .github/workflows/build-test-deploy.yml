@@ -40,7 +40,7 @@ jobs:
       id-token: write  
 
     environment:
-      name: testing-github-action
+      name: production
       url: ${{ steps.deployment.outputs.page_url }}
     
     runs-on: ubuntu-latest
